@@ -15,11 +15,11 @@ setup(
     package_dir={"": "src"},
     packages=find_packages("src"),
     install_requires=[
-        'torch>=1.5,<=1.10',
+        'torch>=1.5,<=1.12.0',
         'hydra-core==1.0.6',
         'tensorboard==2.4.1',
         'matplotlib==3.4.1',
-        'transformers==3.4.0',
+        'transformers==4.20.1',
         'jieba==0.42.1',
         'scikit-learn==0.24.1',
         'pytorch-transformers==1.2.0',
